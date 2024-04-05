@@ -1,0 +1,26 @@
+.tab-container{
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+button{
+    border-width: 0;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 24px;
+}
+.active-tab{
+    color: #fec653;
+    border-color: #fec653;
+    border-style: solid;
+    border-width: 1px;
+    border-top-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+@media (max-width: 576px){
+    button{
+        font-size: 18px;
+    }
+}

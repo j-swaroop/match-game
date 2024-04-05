@@ -1,0 +1,26 @@
+button{
+    border-width: 0;
+    background-color: transparent;
+    cursor:pointer;
+}
+.image{
+    margin: 12px;
+}
+.thumbnail-image{
+    height: 120px;
+    width: 120px;
+}
+
+@media (max-width: 700px){
+    .thumbnail-image{
+    height: 80px;
+    width: 80px;
+    }
+}
+
+@media (max-width: 576px){
+    .thumbnail-image{
+        height: 60px;
+        width: 60px;
+    }
+}
